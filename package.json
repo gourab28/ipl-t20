@@ -1,0 +1,25 @@
+{
+  "name": "ipl-t20-api",
+  "version": "1.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gourab28/ipl-t20.git"
+  },
+  "author": "Gourab Das",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gourab28/ipl-t20/issues"
+  },
+  "homepage": "https://github.com/gourab28/ipl-t20#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1"
+  }
+}
